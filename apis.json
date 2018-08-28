@@ -1,0 +1,185 @@
+{
+	"name": "Streadata.io API Gallery - Leads",
+	"description": "This is a repository of leads APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/leads.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://leads.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "HubSpot",
+			"x-api-slug": "hubspot",
+			"description": "HubSpot is on a mission to replace the world&rsquo;s annoying, interruptive marketing with marketing that people love. HubSpot software is the most powerful, tightly integrated and comprehensive marketing software available, putting personalized inbound marketing into the hands of any business. Over 8,000 companies in 56 countries use our software to create lovable inbound marketing to attract, nurture and convert leads into an accelerating stream of new customers and revenue. HubSpot is also the developer of the popular website analysis tool, MarketingGrader.com, which has over 3 million users and grades upwards of 250,000 companies per month.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/213-hubspot-product-team.jpg",
+			"humanURL": "http://www.hubspot.com/",
+			"baseURL": "https:///",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/hubspot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IDX Broker",
+			"x-api-slug": "idx-broker",
+			"description": "Based in Eugene, OR, IDX, LLC is nationally known as a leading provider of real estate search applications. IDX, LLC actively manages more than $2 trillion worth of active listing data from more than 600 individual Multiple Listings Services (MLS). IDX, LLC provides integrated IDX software, customizable listing search utilities and lead management tools for real estate based websites (IDX Broker).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png",
+			"humanURL": "http://www.idxbroker.com",
+			"baseURL": "https://example.com//",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Partners",
+			"x-api-slug": "google-partners",
+			"description": "Google Partners is Googles program for advertising agencies, digital marketing professionals, and other online consultants who manage AdWords accounts. The Google Partners API lets advertisers search certified companies and create contact leads with them, and also audits the usage of clients.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-Partner.jpg",
+			"humanURL": "https://developers.google.com/partners/",
+			"baseURL": "://partners.googleapis.com//",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/google-partners/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data2CRM",
+			"x-api-slug": "data2crm",
+			"description": "Data2CRM is all-in-one master touch instrument to create the perfect data environment for prosperous internal and external connections.Data2CRM.API, a Unified API Provider, to Connect Your Business Software with 17+ CRMs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png",
+			"humanURL": "http://data2crm.com",
+			"baseURL": "https://api.data2crm.com:80//v1",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/data2crm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "Leads",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/docsmore/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Leads",
+	"include": [
+		{
+			"name": "HubSpot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/hubspot/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "IDX Broker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/apis.yaml"
+		},
+		{
+			"name": "Google Partners",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/google-partners/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Data2CRM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/data2crm/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/docsmore/apis.yaml"
+		}
+	]
+}

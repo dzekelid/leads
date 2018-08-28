@@ -74,6 +74,132 @@ paths:
       - To
       - Be
       - Processed
+  /api/todo/canceltask:
+    put:
+      summary: Cancel the Task. Used for cancelling the Lead Requests.
+      description: Cancel the task. used for cancelling the lead requests..
+      operationId: DefaultToDo_CancelTaskBycancelTask
+      x-api-path-slug: apitodocanceltask-put
+      parameters:
+      - in: body
+        name: cancelTask
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cancel
+      - Task
+      - ""
+      - Usedcancelling
+      - Lead
+      - Requests
+  /api/todo/cancelleadandtask:
+    put:
+      summary: Cancel the Task. Used for cancelling the Lead Requests.
+      description: Cancel the task. used for cancelling the lead requests..
+      operationId: DefaultToDo_CancelLeadAndTaskBycancelLead
+      x-api-path-slug: apitodocancelleadandtask-put
+      parameters:
+      - in: body
+        name: cancelLead
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cancel
+      - Task
+      - ""
+      - Usedcancelling
+      - Lead
+      - Requests
+  /api/inboundlead/discardthelead:
+    put:
+      summary: Discard the Lead.
+      description: Discard the lead..
+      operationId: InboundLead_DiscardTheLeadByleadId
+      x-api-path-slug: apiinboundleaddiscardthelead-put
+      parameters:
+      - in: query
+        name: leadId
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Discard
+      - Lead
+  /api/inboundlead/{todoTaskLeadId}/setleadgroup/{groupId}:
+    put:
+      summary: Endpoint to update group on inbound lead task
+      description: Endpoint to update group on inbound lead task.
+      operationId: InboundLead_SetLeadGroupBytodoTaskLeadIdBygroupId
+      x-api-path-slug: apiinboundleadtodotaskleadidsetleadgroupgroupid-put
+      parameters:
+      - in: path
+        name: groupId
+        description: Group Id
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: path
+        name: todoTaskLeadId
+        description: Todos Task Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Endpoint
+      - To
+      - Update
+      - Group
+      - "On"
+      - Inbound
+      - Lead
+      - Task
+  /api/inboundlead/create:
+    post:
+      summary: Creates a lead in the system, optinally assigning the lead to a negotiator
+      description: Creates a lead in the system, optinally assigning the lead to a
+        negotiator.
+      operationId: InboundLead_CreateLeadBydataContractByassignToNegId
+      x-api-path-slug: apiinboundleadcreate-post
+      parameters:
+      - in: query
+        name: assignToNegId
+        description: Negotiator Id to assign lead too
+      - in: body
+        name: dataContract
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Creates
+      - Lead
+      - In
+      - System
+      - ""
+      - Optinally
+      - Assigning
+      - Lead
+      - To
+      - Negotiator
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

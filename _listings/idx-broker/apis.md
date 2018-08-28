@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Leads
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -297,6 +297,25 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Put Leads Lead
+  x-api-slug: leadslead-put
+  description: |-
+    Get information for one or multiple leads.
+
+    Example Request: https://api.idxbroker.com/leads/lead?interval=24&startDatetime=2016-01-01+23:59:59&dateType=subscribeDate
+
+    For Data on a specific lead add/LEAD_ID_HERE
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-put-openapi.md
 - name: IDX API 1.4.0 Test Runner - Post Leads Lead Lead
   x-api-slug: leadsleadleadid-post
   description: |-
@@ -328,6 +347,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-delete-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Leads Lead Traffic
+  x-api-slug: leadsleadtrafficleadid-get
+  description: Get information on a lead's traffic history.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadtrafficleadid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadtrafficleadid-get-openapi.md
 - name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Lead Traffic
   x-api-slug: partnersaggregatedleadtraffic-get
   description: Get a list of all leads traffic history.
@@ -433,6 +464,232 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Lead Traffic
+  x-api-slug: partnersaggregatedleadtraffic-get
+  description: Get a list of all leads traffic history.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Lead Traffic
+  x-api-slug: partnersaggregatedleadtraffic-get
+  description: Get a list of all leads traffic history.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Lead Traffic
+  x-api-slug: partnersaggregatedleadtraffic-get
+  description: Get a list of all leads traffic history.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Leads Lead Traffic
+  x-api-slug: leadsleadtrafficleadid-get
+  description: Get information on a lead's traffic history.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadtrafficleadid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadtrafficleadid-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Leads Lead Traffic
+  x-api-slug: leadsleadtrafficleadid-get
+  description: Get information on a lead's traffic history.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadtrafficleadid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadtrafficleadid-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Leads Lead Traffic
+  x-api-slug: leadsleadtrafficleadid-get
+  description: Get information on a lead's traffic history.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadtrafficleadid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadtrafficleadid-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Delete Leads Lead Lead
+  x-api-slug: leadsleadleadid-delete
+  description: |-
+    Delete Lead
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-delete-openapi.md
+- name: IDX API 1.4.0 Test Runner - Delete Leads Lead Lead
+  x-api-slug: leadsleadleadid-delete
+  description: |-
+    Delete Lead
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-delete-openapi.md
+- name: IDX API 1.4.0 Test Runner - Post Leads Lead Lead
+  x-api-slug: leadsleadleadid-post
+  description: |-
+    Post information for a lead.
+
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-post-openapi.md
+- name: IDX API 1.4.0 Test Runner - Post Leads Lead Lead
+  x-api-slug: leadsleadleadid-post
+  description: |-
+    Post information for a lead.
+
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-post-openapi.md
+- name: IDX API 1.4.0 Test Runner - Post Leads Lead Lead
+  x-api-slug: leadsleadleadid-post
+  description: |-
+    Post information for a lead.
+
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadsleadleadid-post-openapi.md
+- name: IDX API 1.4.0 Test Runner - Put Leads Lead
+  x-api-slug: leadslead-put
+  description: |-
+    Get information for one or multiple leads.
+
+    Example Request: https://api.idxbroker.com/leads/lead?interval=24&startDatetime=2016-01-01+23:59:59&dateType=subscribeDate
+
+    For Data on a specific lead add/LEAD_ID_HERE
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-put-openapi.md
+- name: IDX API 1.4.0 Test Runner - Put Leads Lead
+  x-api-slug: leadslead-put
+  description: |-
+    Get information for one or multiple leads.
+
+    Example Request: https://api.idxbroker.com/leads/lead?interval=24&startDatetime=2016-01-01+23:59:59&dateType=subscribeDate
+
+    For Data on a specific lead add/LEAD_ID_HERE
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-put-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Leads Lead
+  x-api-slug: leadslead-get
+  description: |-
+    Get information for one or multiple leads.
+
+    Example Request: https://api.idxbroker.com/leads/lead?interval=24&startDatetime=2016-01-01+23:59:59&dateType=subscribeDate
+
+    For Data on a specific lead add/LEAD_ID_HERE
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Leads Lead
+  x-api-slug: leadslead-get
+  description: |-
+    Get information for one or multiple leads.
+
+    Example Request: https://api.idxbroker.com/leads/lead?interval=24&startDatetime=2016-01-01+23:59:59&dateType=subscribeDate
+
+    For Data on a specific lead add/LEAD_ID_HERE
+
+    Example: https://api.idxbroker.com/leads/lead/123
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/idx-broker/leadslead-get-openapi.md
 x-common:
 - type: x-blog
   url: https://blog.idxbroker.com/

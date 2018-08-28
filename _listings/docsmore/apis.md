@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-
 x-kinRank: "7"
 x-alexaRank: "7238418"
 tags: Leads
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/docsmore/apis.md
 specificationVersion: "0.14"
 apis:

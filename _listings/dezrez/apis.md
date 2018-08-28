@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Leads
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dezrez.Rezi.Client.Api - Check for Matching groups for the given leads based
+    on contact item values i.e. Emails and Phones.
+  x-api-slug: apiinboundleadcheckformatchinggroups-get
+  description: Check for matching groups for the given leads based on contact item
+    values i.e. emails and phones..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadcheckformatchinggroups-get-openapi.md
 - name: Dezrez.Rezi.Client.Api - Gets all leads that are awaiting to be processed
   x-api-slug: apiinboundleadoutstanding-get
   description: Gets all leads that are awaiting to be processed.
@@ -24,6 +36,144 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadoutstanding-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadoutstanding-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Cancel the Task. Used for cancelling the Lead Requests.
+  x-api-slug: apitodocanceltask-put
+  description: Cancel the task. used for cancelling the lead requests..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodocanceltask-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Cancel the Task. Used for cancelling the Lead Requests.
+  x-api-slug: apitodocancelleadandtask-put
+  description: Cancel the task. used for cancelling the lead requests..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodocancelleadandtask-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Discard the Lead.
+  x-api-slug: apiinboundleaddiscardthelead-put
+  description: Discard the lead..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleaddiscardthelead-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Endpoint to update group on inbound lead task
+  x-api-slug: apiinboundleadtodotaskleadidsetleadgroupgroupid-put
+  description: Endpoint to update group on inbound lead task.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadtodotaskleadidsetleadgroupgroupid-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Creates a lead in the system, optinally assigning
+    the lead to a negotiator
+  x-api-slug: apiinboundleadcreate-post
+  description: Creates a lead in the system, optinally assigning the lead to a negotiator.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadcreate-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Cancel the Task. Used for cancelling the Lead Requests.
+  x-api-slug: apitodocanceltask-put
+  description: Cancel the task. used for cancelling the lead requests..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodocanceltask-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Cancel the Task. Used for cancelling the Lead Requests.
+  x-api-slug: apitodocancelleadandtask-put
+  description: Cancel the task. used for cancelling the lead requests..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodocancelleadandtask-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Discard the Lead.
+  x-api-slug: apiinboundleaddiscardthelead-put
+  description: Discard the lead..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleaddiscardthelead-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Endpoint to update group on inbound lead task
+  x-api-slug: apiinboundleadtodotaskleadidsetleadgroupgroupid-put
+  description: Endpoint to update group on inbound lead task.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadtodotaskleadidsetleadgroupgroupid-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Creates a lead in the system, optinally assigning
+    the lead to a negotiator
+  x-api-slug: apiinboundleadcreate-post
+  description: Creates a lead in the system, optinally assigning the lead to a negotiator.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadcreate-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Check for Matching groups for the given leads based
+    on contact item values i.e. Emails and Phones.
+  x-api-slug: apiinboundleadcheckformatchinggroups-get
+  description: Check for matching groups for the given leads based on contact item
+    values i.e. emails and phones..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadcheckformatchinggroups-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets all leads that are awaiting to be processed
+  x-api-slug: apiinboundleadoutstanding-get
+  description: Gets all leads that are awaiting to be processed.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadoutstanding-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadoutstanding-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Assign InboundLead Todos to all the specified Negs
+    using round-robin assignement.
+  x-api-slug: apitodoassignleadsforspecifiednegs-put
+  description: Assign inboundlead todos to all the specified negs using round-robin
+    assignement..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodoassignleadsforspecifiednegs-put-openapi.md
 - name: Dezrez.Rezi.Client.Api - Assign InboundLead Todos to the owning Negotiators
     of the property.
   x-api-slug: apitodoassignleadstoowningnegotiators-put
@@ -51,6 +201,67 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodoassignleadstopredefinedteams-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodoassignleadstopredefinedteams-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get the list of all InboundLead ToDo's
+  x-api-slug: apitodogetleads-get
+  description: Get the list of all inboundlead todo's.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodogetleads-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Creates a lead in the system, optinally assigning
+    the lead to a negotiator
+  x-api-slug: apiinboundleadcreate-post
+  description: Creates a lead in the system, optinally assigning the lead to a negotiator.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadcreate-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Endpoint to update group on inbound lead task
+  x-api-slug: apiinboundleadtodotaskleadidsetleadgroupgroupid-put
+  description: Endpoint to update group on inbound lead task.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleadtodotaskleadidsetleadgroupgroupid-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Discard the Lead.
+  x-api-slug: apiinboundleaddiscardthelead-put
+  description: Discard the lead..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apiinboundleaddiscardthelead-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Cancel the Task. Used for cancelling the Lead Requests.
+  x-api-slug: apitodocancelleadandtask-put
+  description: Cancel the task. used for cancelling the lead requests..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodocancelleadandtask-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Cancel the Task. Used for cancelling the Lead Requests.
+  x-api-slug: apitodocanceltask-put
+  description: Cancel the task. used for cancelling the lead requests..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leads/master/_listings/dezrez/apitodocanceltask-put-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez
